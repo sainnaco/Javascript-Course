@@ -1,72 +1,95 @@
-// let sum = function (a, b) {
-//     // c = a + b;
-//     // return c;
-//     // console.log(c);
-//     return a + b;
+let age = 10;
+// if (age >= 18) {
+//     console.log("You are adult!");
+// } else {
+//     console.log("You are tiny!");
 // }
 
-// let i = 20;
-// let j = 18;
-// let n1 = 30, n2 = 16;
-// console.log(sum(n1, n2));
-// // sum(17, 65);
+// if (age >= 4 && age < 18) {
 
-// let sum = (a, b) => { return a + b; }
-// let sum = (a, b) => {
-//     return a + b
+// } else if (age < 50) {
+    
+// } else {
+
 // }
-// let sum = (a, b) => (a + b);
-// console.log(sum(11, 76));
+// if (hour >= 22 || day == Jome) {
 
+// }
+// if (!access) {
+    
+// }
 
-let students = ['Amin', "Mehrsa", "Mohadesse", "Ali", "Zahra", "Milad"];
-// console.log(students);
-// students.push("Zahra");
-// console.log(students);
-// students.pop();
-// console.log(students);
-// students.shift();
-// console.log(students);
-// students.unshift("Zahra", "Milad");
-// console.log(students);
-// students.splice(1, 2);
-// console.log(students);
-// students.splice(3, 0, "Zahra", "Milad");
-// console.log(students);
-// students.splice(3, 1, "Zohre", "Nazi", "Amir");
-// console.log(students);
-// let teachers = students.slice(0, 3);
-// console.log(teachers);
-let numbers = [1, 16, 37, 4, 20, [17, 64, 93, 21]];
-// students.sort()
-// console.log(students);
-// numbers.sort()
-// numbers.sort((a,b) => a - b)
-// console.log(numbers);
-// students.sort().reverse();
-// console.log(students);
-// numbers.sort((a, b) => a - b).reverse()
-// console.log(numbers);
-// console.log(students.includes("Amin"));
-// console.log(students.includes("Hamid"));
-// let data = students.concat(numbers)
-// console.log(data);
-// console.log(students.indexOf("Hamid"));
-// console.log(numbers.find((n) => n < 20));
-// console.log(numbers.filter((n) => n < 20));
-// console.log(students[0]);
-// console.log(numbers);
-// console.log(numbers[5]);
-// console.log(numbers[5][2]);
+// if (age < 10) {
+//     console.log("1");
+// } else if (age < 20) {
+//     console.log("2");
+// } else if (age < 30) {
+//     console.log("3");
+// } else if (age < 40) {
+//     console.log("4");
+// } else {
+//     console.log("etc");
+// }
 
+// if (age >= 40) {
+//     console.log("etc");
+// } else if (age >= 30) {
+//     console.log("4");
+// } else if (age >= 20) {
+//     console.log("3");
+// } else if (age >= 10) {
+//     console.log("2");
+// } else {
+//     console.log("1");
+// }
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+let students = ["Amin", "Ali", "Reza", "Jafar"]
+// for (let index = 0; index < students.length; index++) {
+//     const element = students[index];
+//     console.log(element);
+// }
 
+// for (let i = 0; i < students.length; i++) {
+//     console.log(students[i]);
+// }
 
+// students.forEach(element => {
+//     console.log(element);
+// });
 
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+    
+// }
+// let index = 0;
+// while (index < students.length) {
+//     console.log(students[index]);
+//     index++;
+// }
+// for (let index = 0; index < 100; index++) {
+//     console.log(index);
+// }
+let i = 0;
+// while (i < 99) {
+//     i++;
+//     if (i == 10) {
+//         continue;
+//     }
 
-
-
-
-
-
-
-
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
+//     // i++;
+// }
+while (i < 100) {
+    if (i == 40) {
+        break;
+    }
+    if (i%2==0) {
+        console.log(i);
+    }
+    i++;
+}
