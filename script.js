@@ -1,95 +1,44 @@
-let age = 10;
-// if (age >= 18) {
-//     console.log("You are adult!");
-// } else {
-//     console.log("You are tiny!");
+// let n = 1000000013
+// let b = (n ** 0.5)
+// console.log(b);
+// let c = parseInt(b)
+// console.log(c + 1);
+// let d = ((c + 1) ** 0.5)
+// console.log(parseInt(d + 1));
+// let e = ((d + 1) ** 0.5)
+// console.log(parseInt(e+1));
+
+
+// let students = ['Amin', 31, 'Male', 87, 187]
+
+// console.log(students[2]);
+// let users = {
+//     'user1': {
+//         'name': 'Amin',
+//         'family': 'Pourzare'
+//     },
+//     'user2': {
+//         'name': 'Mehrsa',
+//         'family': 'Habibi'
+//     },
+//     token: 'fsd[pfojksdfmsfsfk'
 // }
 
-// if (age >= 4 && age < 18) {
+// console.log(users.token);
+// isPrime(1000)
 
-// } else if (age < 50) {
-    
-// } else {
-
-// }
-// if (hour >= 22 || day == Jome) {
-
-// }
-// if (!access) {
-    
+// function isPrime(number) {
+//     // 
 // }
 
-// if (age < 10) {
-//     console.log("1");
-// } else if (age < 20) {
-//     console.log("2");
-// } else if (age < 30) {
-//     console.log("3");
-// } else if (age < 40) {
-//     console.log("4");
-// } else {
-//     console.log("etc");
+// // hasPrime(1000) Error
+// const hasPrime = function (number) {
+//     // 
 // }
+// hasPrime(12437)
 
-// if (age >= 40) {
-//     console.log("etc");
-// } else if (age >= 30) {
-//     console.log("4");
-// } else if (age >= 20) {
-//     console.log("3");
-// } else if (age >= 10) {
-//     console.log("2");
-// } else {
-//     console.log("1");
-// }
-///////////////////////////////////////
-///////////////////////////////////////
-///////////////////////////////////////
-///////////////////////////////////////
-let students = ["Amin", "Ali", "Reza", "Jafar"]
-// for (let index = 0; index < students.length; index++) {
-//     const element = students[index];
-//     console.log(element);
-// }
-
-// for (let i = 0; i < students.length; i++) {
-//     console.log(students[i]);
-// }
-
-// students.forEach(element => {
-//     console.log(element);
-// });
-
-// for (let index = 0; index < array.length; index++) {
-//     const element = array[index];
-    
-// }
-// let index = 0;
-// while (index < students.length) {
-//     console.log(students[index]);
-//     index++;
-// }
-// for (let index = 0; index < 100; index++) {
-//     console.log(index);
-// }
-let i = 0;
-// while (i < 99) {
-//     i++;
-//     if (i == 10) {
-//         continue;
-//     }
-
-//     if (i % 2 == 0) {
-//         console.log(i);
-//     }
-//     // i++;
-// }
-while (i < 100) {
-    if (i == 40) {
-        break;
-    }
-    if (i%2==0) {
-        console.log(i);
-    }
-    i++;
-}
+// DOM
+// console.log(document.location);
+let titleElement = document.getElementById('title')
+titleElement.style.color = 'pink'
+console.log(titleElement);
