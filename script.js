@@ -1,61 +1,97 @@
-// let data = document.getElementsByTagName('h3')
-// let data = document.getElementById('article_00')
-// let data = document.getElementsByClassName('article_title')
-// let data = document.querySelector('body > div > article:nth-child(2) > h3')
-// console.log(typeof titles);
+// let time = document.getElementById('time')
+// let fix = document.getElementById('fixed-time')
 
-// titles.forEach(title => {
-//     console.log(title);
-// });
 
-// for (let index = 0; index < titles.length; index++) {
-//     const element = titles[index];
-//     console.log(element.innerText);
+// function getTime() {
+//     let dateTime = new Date()
+//     min.innerText = dateTime.getMinutes()
+//     sec.innerText = dateTime.getSeconds()
+//     if (mili < 10) {
+//         mili.innerText = "00" + dateTime.getMilliseconds()
+//     } else if (mili < 100) {
+//         mili.innerText = "0" + dateTime.getMilliseconds()
+//     } else {
+//         mili.innerText = dateTime.getMilliseconds()
+//     }
+
+// }
+// function load() {
+//     setInterval('getTime()', 1)
 // }
 
-// console.log(article_00.innerText);
 
-// console.log(typeof data);
-
-// for (let index = 0; index < data.length; index++) {
-//     const element = data[index];
-//     console.log(element.innerText);
-    
+// function fixTime() {
+//     let dateTime = new Date()
+//     let minute = dateTime.getMinutes()
+//     let second = dateTime.getSeconds()
+//     let milis = dateTime.getMilliseconds()
+//     let milisecond = 0
+//     if (milis < 10) {
+//         milisecond = "00" + dateTime.getMilliseconds()
+//     } else if (milis < 100) {
+//         milisecond = "0" + dateTime.getMilliseconds()
+//     } else {
+//         milisecond = dateTime.getMilliseconds()
+//     }
+//     fix.innerHTML += `<li>${minute} : ${second} : ${milisecond}</li>`
+// }
+// let mini = 0
+// let seco = 0
+// let mily = 0
+// function timer() {
+//     mily += 1
+//     if (mily > 999) {
+//         mily = 0
+//         seco += 1
+//         if (seco > 59) {
+//             mini += 1
+//             seco = 0
+//         }
+//     }
+//     return `${mini} : ${seco} : ${mily}`
 // }
 
-// console.log(typeof data);
-// console.log(data.innerText);
-// data.innertText = " Customize"
-// data.style.color = '#cccccc'
-// data.innerText += " Customize"
-
-// for (let index = 0; index < data.length; index++) {
-//     const element = data[index];
-//     // element.innertText = 'AA'
-//     // console.log(element.innerText);
-//     // element.style.color = '#CCCCCC'
-//     // element.style.fontSize = '3.5rem';
-//     // element.innerText += " ----"
-//     // console.log(element.innerHTML);
-//     element.innerHTML += ' <span style="background: #ff0000; display: none;">New</span>'
-//     console.log(element.innerHTML);
-//     console.log("---------------");
-//     console.log(element.innerText);
-//     console.log("---------------");
-//     console.log(element.textContent);
+// function setTime() {
+//     time.innerText = timer()
 // }
-// let date = new Date()
-// let time = Date.now()
-// console.log(date.get);
-let num = 0;
-let hour = document.getElementById('hour')
-let minute = document.getElementById('minute')
-let second = document.getElementById('second')
+// function clickStart() {
+//     setInterval('setTime()', 1)
+// }
 
-function showTime() {
-    let date = new Date()
-    hour.innerText = date.getHours()
-    minute.innerText = date.getMinutes()
-    second.innerText = date.getSeconds()
-}
-setInterval('showTime()', 1000);
+// function fixed() {
+//     let a = time.innerText
+//     fix.innerHTML += `<li>${a}</li>`
+
+// }
+
+// setInterval()
+
+let para = document.querySelector('p')
+// console.log(para.getAttribute("class"));
+// para.setAttribute("title", "simple-text")
+// para.setAttribute("data-info", "customAttribute")
+
+
+// let class_p = para.className
+// console.log(class_p);
+console.log(para.dataset.info);
+para.dataset.info = "pourzare"
+console.log(para.dataset.info);
+
+para.style.color = "#f0f0f0"
+
+let menu = document.querySelector('ul#menu')
+menu.style.display = 'flex'
+menu.style.padding = '.5rem 2rem'
+// menu_item.style.listStyleType = none
+
+
+let menu_item = document.querySelectorAll('ul#menu > li')
+// console.log(typeof menu_item);
+menu_item.forEach(i => {
+    i.style.padding = '0.5rem 2rem'
+    i.style.color = '#0000ff'
+
+})
+// menu_item.style.padding = '.5rem 1rem'
+// menu_item.style.color = '#0000ff'
